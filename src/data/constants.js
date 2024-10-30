@@ -66,6 +66,16 @@ export const skills = [
     title: "Backend",
     skills: [
       {
+        name: "ASP.NET",
+        image:
+          "https://e7.pngegg.com/pngimages/534/663/png-clipart-net-framework-software-framework-c-microsoft-asp-net-microsoft-blue-angle-thumbnail.png",
+      },
+      {
+        name: "ASP.NET Core",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png",
+      },
+      {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
@@ -104,9 +114,9 @@ export const skills = [
     title: "Languages",
     skills: [
       {
-        name: "Java",
+        name: "C#",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
       },
       {
         name: "C++",
@@ -183,7 +193,43 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 1,
+    img: "https://i.postimg.cc/bwNHX0QM/SLTMobitel-Logo-svg.png",
+    role: "Associate Software Engineer",
+    company: "Sri Lanka Telecom PLC - Digital Labs",
+    date: "August 2023 - October 2024",
+    desc: "",
+    skills: [
+      "Node Js",
+      "Javascript",
+      "Next JS",
+      "React Js",
+      "Mongo DB",
+      "Docker",
+      "Kubernetes",
+    ],
+    doc: "",
+  },
+  {
+    id: 2,
+    img: "https://i.postimg.cc/hP0b3Z7T/lsnfoajs.png",
+    role: "Frontend Engineer(Freelance)",
+    company: "theBOAT",
+    date: "September 2023 - Present",
+    desc: "Working on the frontend of a travel Web App using ReactJS, Redux, and Tailwind CSS.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    doc: "",
+  },
+  {
+    id: 2,
     // img: "https://i.postimg.cc/bwNHX0QM/SLTMobitel-Logo-svg.png",
     img: "https://i.postimg.cc/B6vggXp3/images.png",
     role: "Intern - Software Engineer",
@@ -204,24 +250,7 @@ export const experiences = [
     ],
     doc: "",
   },
-  {
-    id: 0,
-    img: "https://i.postimg.cc/hP0b3Z7T/lsnfoajs.png",
-    role: "Frontend Engineer(Freelance)",
-    company: "theBOAT",
-    date: "September 2023 - Present",
-    desc: "Working on the frontend of a travel Web App using ReactJS, Redux, and Tailwind CSS.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    doc: "",
-  },
+
   // {
   //   id: 1,
   //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
